@@ -52,6 +52,9 @@ input[type='submit']{
 input[type='submit']:hover{
 	background-color: #2F5597;
 }
+label{
+	font-size: 30px;
+}
 
 
 
