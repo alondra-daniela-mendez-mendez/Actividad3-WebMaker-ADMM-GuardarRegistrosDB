@@ -8,11 +8,16 @@
 <body>
     <form method="post">
     	<h1>Alta de Empleados</h1>
-    	<input type="text" name="nombre" placeholder="Nombre">
-    	<input type="text" name="ape" placeholder="Apellidos">
-		<input type="email" name="correo" placeholder="micorreo@gmail.com">
-		<input type="date" name="fecha_nac">
-		<input type="text" name="esp" placeholder="Especialización">
+		<label for="nombre">Nombre:</label><br>
+    	<input type="text" name="nombre" placeholder="Nombre" id="nombre"><br>
+		<label for="ape">Apellidos:</label><br>
+    	<input type="text" name="ape" placeholder="Apellidos" id="ape"><br>
+		<label for="correo">Correo:</label><br>
+		<input type="email" name="correo" placeholder="micorreo@gmail.com" id="correo"><br>
+		<label for="fecha_nac">Fecha de Nacimiento:</label><br>
+		<input type="date" name="fecha_nac" id="fecha_nac"><br>
+		<label for="esp">Especializad Web:</label><br>
+		<input type="text" name="esp" placeholder="Especialización" id="esp"><br>
     	<input type="submit" name="empleado">
     </form>
         <?php 
